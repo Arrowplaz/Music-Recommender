@@ -1,0 +1,99 @@
+/* Global Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: #191414; /* Spotify dark background */
+    color: #ffffff; /* White text color */
+    line-height: 1.6;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  button {
+    font-family: inherit;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background-color: #1DB954; /* Spotify green */
+    color: white;
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #1ed760; /* Hover effect for green */
+  }
+  
+  /* Header Styling */
+  .header {
+    background-color: #121212; /* Darker background */
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .header h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #1DB954; /* Spotify green */
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  
+  /* Main Content */
+  main {
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+    color: #1DB954;
+  }
+  
+  /* Footer Styling */
+  .footer {
+    background-color: #121212;
+    color: #b3b3b3;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 0.9rem;
+  }
+  
+  .footer a {
+    color: #1DB954;
+  }
+  
+  .footer a:hover {
+    color: #b3b3b3;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .header h1 {
+      font-size: 2rem;
+    }
+  
+    h2 {
+      font-size: 1.5rem;
+    }
+  
+    button {
+      padding: 8px 16px;
+      font-size: 0.9rem;
+    }
+  }
+  

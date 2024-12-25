@@ -3,10 +3,10 @@ import "../styles/Recommender.css";
 
 function Recommender() {
   return (
-    <section className="Recommender">
-      <h2>Discover Your Next Favorite Song</h2>
+    <div className="recommender">
+      <h2>Get Your Next Playlist</h2>
       <button>Get Recommendations</button>
-    </section>
+    </div>
   );
 }
 
